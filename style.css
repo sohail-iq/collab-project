@@ -3,11 +3,22 @@ body{
     background-color: #253746;
 }
 
+.vertical-line{
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-left: 3px solid white;
+}
+
 .container{
+    width: auto;
+    /* height: 400px; */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-140%, -50%);
   }
   
 .wn{
@@ -16,10 +27,11 @@ body{
 
 h1{
     color: bisque;
-    font-family: 'arial', Times, sans-serif;
-    font-size: 80px;
+    font-family: 'Comic sans MS', Times, sans-serif;
+    font-weight: 2;
+    font-size: 60px;
     text-align: center;
-    margin: auto;
+
 }
 
 button {
@@ -28,12 +40,26 @@ button {
     font-size: 20px;
     width: 150px; /* Adjust the width as needed */
     height: 50px; /* Adjust the height as needed */
+    margin-inline-end: 20px;
     border-radius: 12px;
     border-width: 0;
 }
 
-.large-button{
+/* .large-button{
     margin-top: 30px;
     width: 150px;
     font-size: 25px;
+}  */
+
+.container-2{
+    width: auto;
+    /* height: 400px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(10%, -50%);
+}
+
+.ln{
+    text-align: center;
 }
