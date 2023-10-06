@@ -1,0 +1,32 @@
+1.Landing page
+2.Login 
+3.SignUp - 4.User
+       - 5.Merchant
+6.Forgot Password
+User Dashboard - 7.Home Dashboard => 8.Select Merchant => 9.Booking Page => 10.Name_with_Slot => 11.Book_with_Person 
+							||					||
+							     =>		12.Book Any	<=
+									    ||
+									13.Booking Confirm Page
+	       - 14. My Bookings
+	       - 15.Support
+	       - 16.About
+	       - 17.Profile
+	       - 18.Sign Out       //Optional
+\\Notification Icon
+
+Merchant Dashboard - 19.Home Dashboard
+		   - 20.Profile
+		   - 21.Collections
+		   - 22.Bookings
+		   - 23.My Services
+		   - 24.Support
+		   - Sign Out
+
+Admin Dashboard - 25.Home Dashboard
+		- 26.Merchant List
+		- 27.User List 
+		- 28.Order List
+		- 29.Request List
+		- 30.Manage Orders
+		- Sign Out
