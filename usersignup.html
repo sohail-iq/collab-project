@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="./usersignup.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            User Registration
+        </h1>
+    </header>
+    <div class="container">
+        <table>
+            <form action="">
+                <tr>
+                    <td>
+                        <label for="firstName"><b>Name:</b></label>
+                    </td>
+                    <td>
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                    </td>
+                    <td>
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phoneNumber"><b>Phone Number:</b></label>
+                    </td>
+                    <td>
+                        <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Enter Phone Number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emailId"><b>Email:</b></label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="emailId" placeholder="Enter your email id">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city"><b>City</b></label>
+                    </td>
+                    <td>
+                        <input type="text" name="city" id="city" placeholder="Enter City Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>Gender:</b>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender"
+                            value="female"> Female <input type="radio" name="gender" value="other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password"><b>Password:</b></label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="Set password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="loginbtn">Submit</button>
+                    </td>
+                    <td>
+                        <button type="reset" class="reset">Reset</button>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>

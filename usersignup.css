@@ -1,0 +1,43 @@
+body{
+    background-color: #253746;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  tr, td{
+    width: auto;
+  }
+
+  .container{
+    width: 50%;
+    background-color: beige;
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 2px;
+    border-width: 0;
+  }
+
+  button{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #04AA6D;
+    border-radius: 3px;
+    border-width: 0;
+    padding: 5px 10px;
+  }
+  h1{
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+  }
