@@ -29,7 +29,7 @@ input[type=text], input[type=password] {
     font-size: 20px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(10%, -50%);
     padding: 30px;
     border-radius: 2px;
     border-width: 0;

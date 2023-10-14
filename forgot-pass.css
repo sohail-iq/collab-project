@@ -1,0 +1,141 @@
+.container {
+    /* background-color: #100530; */
+    background-image: url(./adobestock_133450340.jpeg);
+    background-size: cover;
+    /* opacity: 0.5; */
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+    right: 15px;
+    left: 15px;
+    z-index: -1;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #100530;
+    /* Red background with 50% opacity */
+    opacity: 0.5;
+    /* Ensure it's on top of the image */
+}
+
+.left-box {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    
+}
+
+h1 {
+    font-family: 'Sacramento';
+    color: #FFFAE9;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0;
+}
+
+.divider {
+    border: 2px solid #000; /* Set border properties */
+    border-radius: 2px;
+    width: 100%;
+}
+
+.social-icons i {
+    color: #FF5757;
+    size: 10px;
+}
+
+.social-icons{
+    height: auto;
+    margin-top: 10px;
+    
+}
+
+p{ 
+    margin: 5px 0;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.para {
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+.container-2 {
+    position: fixed;
+    background-color: #EDEDED;
+    top: 125px;
+    right: 250px;
+    left: 800px;
+    height: 417px;
+    width: 380px;
+    border-radius: 50px;
+}
+
+.inner-container {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    color: white;
+    height: 41px;
+    background-color: #FF5757;
+    border-radius: 3px;
+    border-width: 0;
+    padding: 5px 10px;
+    margin-top: 8px;
+}
+
+.lgn-back a {
+    display: inline-block;
+    color: #FF5757;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    /* Makes the anchor a block element */
+}
+
+/* a {
+    color: #FF5757;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+} */
+
+
+
